@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <title>Clear View Escapes</title>
-  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel ">
+  <meta name="keywords" content="Travel planning, travel bundles, travel escapes,affordable travel">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+
+  <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
   <header>
@@ -19,6 +22,19 @@
       </ul>
     </nav>
   </header>
+
+
+  <picture>
+    <source srcset ="app/assets/images/hero--large.jpg 1920w , aap/assets/images/hero--large-hi-dpi.jpg 3840w" media ="(min-width:1380px)">
+
+    <source srcset ="app/assets/images/hero--medium.jpg 1380w , app/assets/images/hero--medium-hi-dpi.jpg 2760w" media ="(min-width:990px)">
+
+<source srcset ="app/assets/images/hero--small.jpg 990w, app/assets/images/hero--small-hi-dpi.jpg 1980w" media ="(min-width:640px)">
+
+    <img srcset ="app/assets/images/hero--smaller.jpg 640w , app/assets/images/hero--smaller-hi-dpi.jpg 1280w" alt ="castal view of ocean and mountains" class="large-hero__image">
+</picture>   
+
+
 
   <div class="large-hero">
     <img src="assets/images/hero--large.jpg">
