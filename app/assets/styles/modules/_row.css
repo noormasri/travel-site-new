@@ -20,15 +20,32 @@
         
         
     }
-    &--gutters {
+&--gutters {
+    margin-right: -65px;
+}
+    &--gutters-large{
+        margin-right: -100px;
+    }
+    
+    &--gutters > div {
         
-        padding-right: 100px;
+        padding-right: 65px;
         
         padding-left: 100px;
      box-sizing: border-box; 
      
     }
+
+    /* &--gutters-large > div {
+      padding-right: 100px;
+    } */
+
+
     &__b-margin-until-medium {
         margin-bottom: 1rem;   }
+        &__medium-6 {
+            float: left;
+            width: 50%;
+        }
 
 }
